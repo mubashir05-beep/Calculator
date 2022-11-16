@@ -7,6 +7,7 @@ function clearScrn(){
     clearBtn.forEach(btn => {
         btn.addEventListener('click',()=>{
             output.value='';
+            miniOutput.value='';
         })
     });
 }
@@ -22,5 +23,5 @@ function result(){
     }
 }
 function del(){
-    output.value=output.value.slice(0,-1);
+    miniOutput.value=miniOutput.value.slice(0,-1);
 }
