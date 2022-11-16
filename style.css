@@ -1,23 +1,123 @@
 *{
     margin: 0;
     padding: 0;
-
+    font-family: 'Poppins', sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Color Theme Swatches in Hex */
+.Teal-Dream-1-hex { color: #4C4A59; }
+.Teal-Dream-2-hex { color: #1B7F7A; }
+.Teal-Dream-3-hex { color: #0897B4; }
+.Teal-Dream-4-hex { color: #4CABA6; }
+.Teal-Dream-5-hex { color: #F2CDAC; }
+
+/* Color Theme Swatches in Hex */
+.Golden-hour-at-Tre-Cime-1-hex { color: #705873; }
+.Golden-hour-at-Tre-Cime-2-hex { color: #1C4259; }
+.Golden-hour-at-Tre-Cime-3-hex { color: #F2B199; }
+.Golden-hour-at-Tre-Cime-4-hex { color: #F2695C; }
+.Golden-hour-at-Tre-Cime-5-hex { color: #A65858; }
+
+
 body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+  min-height: 100vh;
     width: auto;
+   background-color: #F2CDAC;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.output{
+    width: 260px;
+    font-size: 5rem;
+    font-family: inherit;
+    padding: .5rem;
+    text-align: right;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+.subOutput{
+    width: 260px;
+    font-size: 2rem;
+    font-family: inherit;
+    padding: .5rem;
+    text-align: right;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-weight: 600;
 }
 .container{
     display: flex;
     flex-direction: column;
-    background-color: beige;
-    padding: 2rem;
+    background-color:#1C4259;
+    border-radius: 0 18px;
+    padding: 2rem;    
 }
 .key{
     border: none;
-    font-size: 32px;
+    font-size: 20px;
+    background-color:#4C4A59;
+    color: white;
+    padding: 19px;
+    text-align: center;
+    margin:10px 10px;
+}
+.key:active{
+    transform: scale(.98);
+}
+.clearBtn,
+.plusMinus,
+.remainder{
+    color: rgb(0, 248, 248);
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0.8rem;
+}
+.clearBtn,
+.plusMinus{
+    padding: 16px .8rem;
+}
 
+.multiply,
+.minus,
+.plus,
+.result{
+   font-weight: 600;
+   font-size: px;
+   color: crimson;
+   font-size: 14px;
+}
+.plus{
+    padding: 18px 12px;
+}
+.ggz{
+   padding: 18px; 
+}
+.remainder{
+    padding: 16px;
+}
+.divide{
+    font-weight: 600;
+   font-size: px;
+   color: crimson;
+   font-size: 18px;
+   padding: 16px 18px;
+}
+.dot{
+    font-size: 22px;
+    padding: 18px 20px;
+}
+.multiply,
+.minus,
+.plus{
+    font-size: 18px;
+    padding: 22px 18px;
 }
