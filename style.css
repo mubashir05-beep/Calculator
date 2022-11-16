@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    padding: 2rem;
+}
+.key{
+    border: none;
+    font-size: 32px;
+
+}
